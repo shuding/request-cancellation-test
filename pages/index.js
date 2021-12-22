@@ -10,7 +10,9 @@ export default function Main() {
     window.addEventListener(
       'message',
       (event) => {
-        setResult(event.data)
+        if (event.data?.from === 'request-cancellation-test') {
+          setResult(event.data)
+        }
       },
       false
     )
@@ -149,7 +151,7 @@ export default function Main() {
             </tr>
             <tr>
               <td>.stack</td>
-              <td>TypeError: Failed to fetch at ...</td>
+              <td>TypeError: Failed to fetch{'\n    '}at ...</td>
               <td></td>
               <td></td>
               <td></td>

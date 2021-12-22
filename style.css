@@ -7,7 +7,6 @@ body {
   letter-spacing: -0.015em;
   margin: 0;
   padding: 2em;
-  width: 42em;
   max-width: 100%;
   line-height: 1.5;
   box-sizing: border-box;
@@ -35,6 +34,7 @@ body {
 }
 .container p {
   color: #111;
+  max-width: 42em;
 }
 
 .container .table-container {
@@ -47,6 +47,7 @@ body {
 .container tbody {
   font-family: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas,
     monospace;
+  white-space: pre;
 }
 .container thead {
   font-weight: 600;
