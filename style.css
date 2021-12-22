@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  -webkit-font-smoothing: antialiased;
+  font-variant: common-ligatures contextual;
+  letter-spacing: -0.015em;
+  margin: 0;
+  padding: 2em;
+  width: 42em;
+  max-width: 100%;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+.container h2 {
+  font-size: 1rem;
+  margin-top: 1.4rem;
+}
+.container iframe {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.container a {
+  color: crimson;
+}
+.container p {
+  color: #111;
+}
+
+.container .table-container {
+  overflow-x: auto;
+}
+.container table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.container tbody {
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas,
+    monospace;
+}
+.container thead {
+  font-weight: 600;
+}
+.container td {
+  padding: 0.25em 0.5em;
+  border: 1px solid black;
+}

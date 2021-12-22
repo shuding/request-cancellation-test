@@ -1,0 +1,17 @@
+{
+  "name": "request-cancellation-test",
+  "version": "1.0.0",
+  "author": "Shu Ding <g@shud.in>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "bowser": "^2.11.0",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
