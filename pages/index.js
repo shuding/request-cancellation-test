@@ -107,11 +107,7 @@ export default function Main() {
         >
           source code
         </a>{' '}
-        of this website on GitHub, and join the{' '}
-        <a href='https://twitter.com' target='_blank'>
-          conversation
-        </a>{' '}
-        on Twitter.
+        of this website on GitHub.
       </p>
       <h2>Test Results for Common Browsers</h2>
       <div className='table-container'>

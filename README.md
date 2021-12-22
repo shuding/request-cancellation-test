@@ -1,5 +1,7 @@
 # Browser Request Cancellation Test
 
+https://request-cancellation-test.vercel.app
+
 ## What Is This?
 
 This website details the error when a fetch request gets cancelled in this browser.
