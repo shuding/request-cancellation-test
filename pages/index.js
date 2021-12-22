@@ -90,11 +90,11 @@ export default function Main() {
         >
           annoying
         </a>{' '}
-        to differentiate them from normal errors if you are using Sentry, or
-        showing a “failed to fetch” hint in the UI.
+        to differentiate them from normal errors if you are using Sentry to
+        report client errors, or showing a “failed to fetch” hint in the UI.
       </p>
       <p>
-        If you want to reproduce the error by yourself, make sure you have
+        If you want to reproduce this error by yourself, make sure you have
         DevTools opened and “Preserve Log” checked, then click{' '}
         <a href='/test'>/test</a>. You will see a failed network request and a
         printed error in the console.
