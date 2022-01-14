@@ -118,6 +118,7 @@ export default function Main() {
               <td>Chrome 95</td>
               <td>Safari 14</td>
               <td>iOS Safari 14</td>
+              <td>Safari 15</td>
               <td>Firefox 94</td>
             </tr>
           </thead>
@@ -127,6 +128,7 @@ export default function Main() {
               <td>TypeError: Failed to fetch</td>
               <td>TypeError: cancelled</td>
               <td>TypeError: cancelled</td>
+              <td>TypeError: Load failed</td>
               <td>
                 TypeError: NetworkError when attempting to fetch resource.
               </td>
@@ -137,17 +139,20 @@ export default function Main() {
               <td>TypeError</td>
               <td>TypeError</td>
               <td>TypeError</td>
+              <td>TypeError</td>
             </tr>
             <tr>
               <td>.message</td>
               <td>Failed to fetch</td>
               <td>cancelled</td>
               <td>cancelled</td>
+              <td>Load failed</td>
               <td>NetworkError when attempting to fetch resource.</td>
             </tr>
             <tr>
               <td>.stack</td>
               <td>TypeError: Failed to fetch{'\n    '}at ...</td>
+              <td></td>
               <td></td>
               <td></td>
               <td></td>
